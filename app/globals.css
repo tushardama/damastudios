@@ -66,12 +66,21 @@ nav .links {
 	@apply flex gap-8 text-xl text-gray-800 font-medium;
 }
 
-nav .links a{
+nav .links a {
 	@apply transition-all duration-300;
 }
 
 nav .links a:hover {
 	@apply text-[#ec4899];
+}
+
+.callbtn {
+	@apply cursor-pointer flex items-center justify-center gap-2 text-xl text-white font-medium bg-black py-3 px-6 border-2 border-gray-800 rounded-md transition-all duration-300;
+}
+
+.callbtn:hover {
+	@apply bg-white text-gray-800;
+	box-shadow: 4px 4px 0 #1f2937;
 }
 
 /* Hero */
@@ -102,6 +111,48 @@ nav .links a:hover {
 
 .hero-services .hservice {
 	@apply w-full flex gap-2 items-center justify-center text-2xl font-medium;
+}
+
+/* Services */
+
+.gridBox {
+	@apply flex items-center justify-center text-center flex-col p-8 rounded-md bg-gray-100 cursor-pointer w-[100%] border hover:scale-105 transition-transform;
+}
+
+.gridBox h2 {
+	@apply text-xl font-bold mt-4;
+}
+
+.gridBox p {
+	@apply text-sm mt-2;
+}
+
+/* Guareantees */
+
+.gBox {
+	@apply bg-neutral-800 p-8 flex items-start justify-start flex-col rounded-md cursor-pointer w-[100%] border border-neutral-600 hover:scale-105 transition-transform;
+}
+
+.gBox span {
+	@apply w-16 h-16 p-4 flex items-center justify-center rounded-md bg-gradient-to-br from-neutral-700 to-neutral-800 font-medium text-slate-400 transition-colors;
+	animation: shine 2s linear infinite;
+}
+
+.gBox h2 {
+	@apply text-xl text-white font-medium mt-4;
+}
+
+.gBox p {
+	@apply text-gray-300 mt-2;
+}
+
+@keyframes shine {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: -200% 0;
+	}
 }
 
 @theme inline {

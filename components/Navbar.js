@@ -10,7 +10,7 @@ export default function Navbar() {
 				<Link href={'#process'}>Process</Link>
 				<Link href={'#guarentees'}>Guarentees</Link>
 			</div>
-			<Link href={"/meeting"} className="meetingbtn">Book a Call</Link>
+			<Link href={"/meeting"} className="callbtn">Book a Call</Link>
 		</nav>
 	)
 }
