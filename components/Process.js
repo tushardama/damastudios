@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Process() {
 	return (
-		<section id='process' className='w-[70%] mt-26 flex items-center justify-center flex-col'>
+		<section id='process' className='w-[70%] scroll-mt-[18vh] mt-26 flex items-center justify-center flex-col'>
 
 			<h1 className='text-5xl font-medium text-gray-800 flex gap-2 items-center justify-center'>
 				<span>Our</span>

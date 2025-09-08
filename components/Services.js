@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Services() {
 	return (
-		<div className="mt-26 w-[70%] flex flex-col items-center justify-center">
+		<div id="services" className="scroll-mt-[18vh] mt-26 w-[70%] flex flex-col items-center justify-center">
 			<h1 className="text-5xl font-bold text-gray-800">
 				Built from the groundup
 			</h1>
