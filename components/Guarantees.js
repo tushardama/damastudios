@@ -7,10 +7,10 @@ import Image from "next/image";
 export default function Guarantees() {
 	return (
 		<section id="guarentees" className='w-full scroll-mt-[18vh] mt-26 bg-neutral-900 flex flex-col items-center justify-center relative rounded-4xl'>
-			<div className=" mb-26 mt-18 w-[70%] z-10 relative text-white flex items-center justify-center flex-col">
-				<h1 className="text-5xl font-bold">Our guarantees to you.</h1>
-				<h2 className="text-xl mt-4 w-[50%] text-center text-gray-200 font-normal">We ensure the highest quality of work, with the fastest delivery times.</h2>
-				<div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 w-full">
+			<div className="mb-16 md:mb-26 mt-18 w-[90%] md:w-[70%] z-10 relative text-white flex items-center justify-center flex-col">
+				<h1 className="text-3xl md:text-5xl font-bold">Our guarantees to you.</h1>
+				<h2 className="text-xl mt-4 md:w-[50%] text-center text-gray-200 font-normal">We ensure the highest quality of work, with the fastest delivery times.</h2>
+				<div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 md:mt-12 w-full">
 					<div className="gBox">
 						<span>
 							<Image

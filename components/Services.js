@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Services() {
 	return (
-		<div id="services" className="scroll-mt-[18vh] mt-26 w-[70%] flex flex-col items-center justify-center">
-			<h1 className="text-5xl font-bold text-gray-800">
+		<div id="services" className="scroll-mt-[18vh] mt-26 w-[90%] md:w-[70%] flex flex-col items-center justify-center">
+			<h1 className="text-4xl md:text-5xl text-center font-bold text-gray-800">
 				Built from the groundup
 			</h1>
-			<p className="text-2xl w-[50%] font-normal text-gray-600 text-center mt-4">
+			<p className="text-[1.3rem] md:text-2xl md:w-[50%] font-normal text-gray-600 text-center mt-4">
 				All of our services are designed to help your business stand out
 			</p>
 

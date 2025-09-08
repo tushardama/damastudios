@@ -5,10 +5,10 @@ import { Check } from 'lucide-react';
 
 export default function Hero() {
 	return (
-		<div id="hero" className='w-[70%] flex justify-center items-center flex-col pt-22'>
-			<h1 className="text-[4rem] text-gray-900 font-semibold">Elevate your brand with</h1>
-			<h1 className="text-[3rem] text-gray-900 font-medium mt-2"><Cover>Dama Studios</Cover></h1>
-			<p className='text-2xl font-light w-xl text-center text-gray-800 mt-8'>Schedule a call with us to discuss your project and get a quote in minutes</p>
+		<div id="hero" className='w-[90%] md:w-[70%] flex justify-center items-center flex-col pt-12 md:pt-22'>
+			<h1 className="text-5xl text-center md:text-[4rem] text-gray-900 font-semibold">Elevate your brand with</h1>
+			<h1 className="text-4xl md:text-[3rem] text-gray-900 font-medium mt-4 md:mt-2"><Cover>Dama Studios</Cover></h1>
+			<p className='text-2xl font-light md:w-xl text-center text-gray-800 mt-8'>Schedule a call with us to discuss your project and get a quote in minutes</p>
 			<div className="hero-btns">
 				<a href='https://api.whatsapp.com/send/?phone=%2B919574683264&text&type=phone_number&app_absent=0' target='_blank' className="wabtn relative overflow-hidden group">
 					<span className="flex items-center gap-2 relative z-10">
