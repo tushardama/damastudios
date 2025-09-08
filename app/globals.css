@@ -58,16 +58,16 @@ body {
 /* Navbar */
 
 nav {
-	@apply w-[70%] h-[12vh] bg-white rounded-md shadow-md px-6 py-10 flex items-center justify-between gap-4 sticky top-8;
+	@apply w-[90%] md:w-[70%] h-[8dvh] md:h-[12vh] bg-white rounded-md shadow-md p-4 md:px-6 md:py-10 flex items-center justify-between gap-4 sticky top-4 md:top-8;
 	z-index: 999;
 }
 
 nav h1 {
-	@apply text-3xl font-bold text-gray-800;
+	@apply text-xl font-bold text-gray-800;
 }
 
 nav .links {
-	@apply flex gap-8 text-xl text-gray-800 font-medium;
+	@apply hidden md:flex gap-8 text-xl text-gray-800 font-medium;
 }
 
 nav .links a {
@@ -79,7 +79,7 @@ nav .links a:hover {
 }
 
 .callbtn {
-	@apply cursor-pointer flex items-center justify-center gap-2 text-xl text-white font-medium bg-black py-3 px-6 border-2 border-gray-800 rounded-md transition-all duration-300;
+	@apply cursor-pointer flex items-center justify-center gap-2 text-sm text-white font-medium bg-black py-1 px-3 border-2 border-gray-800 rounded-md transition-all duration-300;
 }
 
 .callbtn:hover {
