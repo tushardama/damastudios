@@ -2,7 +2,6 @@
 import React from 'react'
 import { Cover } from "@/components/ui/cover";
 import { Check } from 'lucide-react';
-import Link from 'next/link';
 
 export default function Hero() {
 	return (
@@ -19,7 +18,7 @@ export default function Hero() {
 					</span>
 					Chat on Whatsapp
 				</a>
-				<Link href={"/meeting"} className="meetingbtn">Schedule a Meeting</Link>
+				<a href={"/meeting"} className="meetingbtn">Schedule a Meeting</a>
 			</div>
 			<div className="hero-services">
 				<div className='hservice'><Check color="#ec4899" /> Development</div>

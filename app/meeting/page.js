@@ -28,7 +28,7 @@ export default function Meeting() {
 					{/* Calendly script */}
 					<Script
 						src="https://assets.calendly.com/assets/external/widget.js"
-						strategy="afterInteractive"
+						strategy="lazyOnload"
 					/>
 				</section>
 			</div>
